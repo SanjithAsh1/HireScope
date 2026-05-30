@@ -306,5 +306,3 @@ if __name__ == "__main__":
 
     save_model(model, model_name, le_target, le_loc, feature_cols)
 
-    print("\n🎉 Phase 4 complete!")
-    print("   Next: streamlit run phase6_streamlit.py")
