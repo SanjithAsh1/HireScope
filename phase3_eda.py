@@ -313,4 +313,3 @@ if __name__ == "__main__":
     df.to_csv(os.path.join(DATA_DIR, "da_jobs_eda.csv"), index=False)
     print(f"✅ EDA data saved → data/da_jobs_eda.csv")
     print(f"✅ All 10 plots saved → plots/")
-    print("\n🎉 Phase 3 complete — run phase4_ml.py next!")
