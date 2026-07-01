@@ -170,11 +170,10 @@ def load_and_clean(path):
 
 
     # Filter for DA-related roles
-    da_kw = ["data analyst","business analyst","analytics","bi analyst",
-             "reporting analyst","data analysis","insight analyst"]
-    mask = df["job_title"].str.lower().str.contains("|".join(da_kw), na=False)
-    df   = df[mask].copy()
-    print(f"   DA-related : {len(df):,} jobs kept")
+    #da_kw = ["data analyst","business analyst","analytics","bi analyst","reporting analyst","data analysis","insight analyst"]
+    #mask = df["job_title"].str.lower().str.contains("|".join(da_kw), na=False)
+    #df   = df[mask].copy()
+    #print(f"   DA-related : {len(df):,} jobs kept")
 
     # Clean text columns
     for col in ["job_title","company","location","skills","job_description",
