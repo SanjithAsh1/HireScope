@@ -1,8 +1,5 @@
 """
 HireScope — Apify Job Scraper (Naukri + LinkedIn)
-==================================================
-Naukri Actor  : muhammetakkurtt/naukri-job-scraper   ✅ tested
-LinkedIn Actor: chronometrica/linkedin-jobs-scraper   ✅ tested
 
 Setup:
     pip install requests mysql-connector-python
